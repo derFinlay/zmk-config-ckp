@@ -17,8 +17,8 @@
             // |  SHIFT | \  |  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  | /   |    SHIFT |  UP  |  END  |
             // |  CTL  |  WIN  |  ALT  |          SPACE              | ALT | FN | CTRL |  LEFT | DOWN | RIGHT |
             // ------------------------------------------------------------------------------------------------------------
-            bindings = 
-                &kp ESCAPE   &kp F1   &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8  &kp F9 &kp F10   &kp F11   &kp F12        &kp PSCRN &kp INS &kp DEL
+            bindings = <
+                &kp ESC   &kp F1   &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8  &kp F9 &kp F10   &kp F11   &kp F12        &kp PSCRN &kp INS &kp DEL
                 &kp GRAVE &kp N1   &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8  &kp N9 &kp N0    &kp MINUS &kp EQUAL      &kp BSPC  &kp HOME
                 &kp TAB   &kp Q    &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I   &kp O  &kp P     &kp LBKT  &kp RBKT                 &kp PG_UP
                 &kp CLCK  &kp A    &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K   &kp L  &kp SEMI  &kp SQT   &kp NON_US_HASH &kp RET  &kp PG_DN
@@ -31,7 +31,7 @@
             // ------------------------------------------------------------------------------------------------------------
             // Fn-Layer: BT-Profile auf 1-5, BT_CLR auf 6, USB/BT-Output, Bootloader, Media
             // ------------------------------------------------------------------------------------------------------------
-            bindings = 
+            bindings = <
                 &trans      &trans       &trans       &trans     &trans &trans &trans &trans &trans       &trans       &trans       &trans       &trans       &trans       &trans &trans
                 &trans      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR &trans &trans &trans &out OUT_USB &out OUT_BLE &bt BT_CLR_ALL &sys_reset   &bootloader
                 &trans      &trans       &kp UP       &trans     &trans &trans &trans &trans &kp INS      &trans       &kp PSCRN    &kp SLCK     &kp PAUSE_BREAK              &trans
